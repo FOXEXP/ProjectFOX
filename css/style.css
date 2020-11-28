@@ -370,6 +370,9 @@ img {
       font-size: 1.28rem;
       line-height: 2.07rem;
       max-width: 31.57rem; }
+      .section-title__text--secondary {
+        color: #959595;
+        line-height: 1.928rem; }
       .section-title__text--center {
         max-width: 35.714rem;
         margin: auto;
@@ -797,9 +800,6 @@ input.invalid {
     justify-content: space-between; }
   .clients__section-title {
     margin-bottom: 2rem; }
-  .clients .section-title__text--grey {
-    color: #959595;
-    line-height: 1.928rem; }
   .clients .card {
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
     padding: 1.8rem 2.285rem 0 1.5rem; }
