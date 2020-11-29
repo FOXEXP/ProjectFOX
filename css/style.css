@@ -1012,64 +1012,8 @@ input.invalid {
   padding-top: 40rem;
 }
 
-.swiper-slide {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.swiper-slide__text {
-  flex-basis: 50%;
-  margin-bottom: 2.42rem;
-  padding-bottom: 2rem;
-}
-
-.swiper-slide__heading {
-  font-size: 1.285rem;
-  line-height: 1.78rem;
-  font-family: 'Yeseva One', cursive;
-  color: #E3B873;
-  text-transform: uppercase;
-  margin-bottom: 0.64rem;
-  font-weight: 400;
-}
-
-.swiper-slide__value {
-  font-size: 1.071rem;
-  line-height: 1.819rem;
-}
-
-.swiper-pagination-bullet {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.swiper-pagination-bullet-active {
-  background-color: #fff;
-}
-
-.swiper-button-prev, .swiper-button-next {
-  bottom: 0;
-  top: auto;
-  background-size: 42px;
-  width: 42px;
-  height: 14px;
-}
-
-.swiper-button-prev::after, .swiper-button-next::after {
-  display: none;
-}
-
-.swiper-button-prev {
-  left: 0;
-  background: url(../img/arrow-prev.svg) no-repeat center;
-}
-
-.swiper-button-next {
-  background: url(../img/arrow-next.svg) no-repeat center;
-}
-
-.swiper-container-horizontal > .swiper-pagination-bullets {
-  width: auto;
-  bottom: 0;
+.swiper-container--m {
+  margin-top: 6.571rem;
 }
 
 .swiper-slide {
@@ -1087,11 +1031,27 @@ input.invalid {
   margin-bottom: 50px;
 }
 
+.swiper-slide__value {
+  font-size: 1.071rem;
+  line-height: 1.819rem;
+}
+
+.swiper-slide__link {
+  font-family: 'Yeseva One', cursive;
+  font-size: 1.285rem;
+  line-height: 1.782rem;
+}
+
+.swiper-slide__link--border {
+  border-bottom: 2px solid #E3B873;
+  border-radius: 5%;
+  max-width: 1.85rem;
+}
+
 .swiper-slide__text {
   flex-basis: 50%;
   margin-bottom: 2.42rem;
   padding-bottom: 2rem;
-  margin-top: 6.571rem;
 }
 
 .swiper-slide__heading {
@@ -1102,17 +1062,6 @@ input.invalid {
   text-transform: uppercase;
   margin-bottom: 0.64rem;
   font-weight: 400;
-}
-
-.swiper-slide__value {
-  font-size: 1.071rem;
-  line-height: 1.819rem;
-}
-
-.swiper-slide__link {
-  font-family: 'Yeseva One', cursive;
-  font-size: 1.285rem;
-  line-height: 1.782rem;
 }
 
 .swiper-pagination-bullet {
@@ -1142,6 +1091,10 @@ input.invalid {
 
 .swiper-button-next {
   background: url(../img/arrow-next.svg) no-repeat center;
+}
+
+.swiper-button-next--mr {
+  margin-left: 47.47px;
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets {
