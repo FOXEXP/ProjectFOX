@@ -47,6 +47,10 @@
         margin-bottom: -7px
     &__button
         padding: 1.2857rem 4.785rem
+        transition: box-shadow(0.4)
+        box-shadow: 0px 5px 15px rgba($primary, 0.9)
+        &:hover
+            box-shadow: none
     &__policy
         flex-basis: 100%
         margin-top: 1.2rem
@@ -54,5 +58,6 @@
     &__play
         position: relative
         margin: auto
+        cursor: pointer
         &-label
             justify-content: center
